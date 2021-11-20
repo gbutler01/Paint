@@ -120,7 +120,7 @@ public class App extends Application {
                                                
         menubar = new MenuBar(); // create menu bar object
         
-        menu = new Menu("File"); // menu object & name
+        menu = new Menu("File"); // menu object
         menubar.getMenus().add(menu); // add menu to menu bar
         
         helpmenu = new Menu("Help"); // help menu
