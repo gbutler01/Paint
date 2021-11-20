@@ -597,7 +597,7 @@ public class App extends Application {
     /**
      * Unit tests to assure working quality of program
      * @param x, a, b, c, d
-     * @return x*x, a*c, a*b, a*d, b*c
+     * @return x+x, a+b, a+c, a+d, b+c
      */
     public int add(int x) {
         return x+x;
